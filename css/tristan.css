@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif !important;
-    background-color: #2c2f33;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -9,25 +9,26 @@ body {
     font-size: 16px;
 }
 
-.nav-link {
-     font-size: 14px !important;
-     background: transparent !important;
-     font-family: Lato, sans-serif !important;
-     text-transform: capitalize !important;
- }
- .nav-link:hover {
-     background: transparent !important;
-     color: #7289da !important;
-     font-weight: bold !important;
- }
+.nav-linkv2 {
+    font-size: 14px !important;
+    color: #000000;
+    background: transparent !important;
+    font-family: Lato, sans-serif !important;
+    text-transform: capitalize !important;
+}
+.nav-link:hover {
+    background: transparent !important;
+    color: #7289da !important;
+    font-weight: bold !important;
+}
 
- .login-btn {
-     border: 2px solid #7289da !important;
-     font-size: 10px !important;
- }
- .login-btn:hover {
-     background: #454f80 !important;
- }
+.login-btn {
+    border: 2px solid #7289da !important;
+    font-size: 10px !important;
+}
+.login-btn:hover {
+    background: #7289da !important;
+}
 .navbar {
     box-shadow: none !important
 }
@@ -37,7 +38,7 @@ body {
 }
 
 .navbar-toggler-icon {
-    color: #fff !important
+    color: #2c2f33 !important
 }
 
 .btn {
@@ -48,15 +49,15 @@ body {
 }
 
 .btn-primary {
-    background-color: #7289da !important
+    background-color: #7289da!important
 }
 .btn-secondary {
-    background-color: #7289DA !important
+    background-color: #2C2F33 !important
 }
 .heading {
     padding: 160px 50px !important;
-    color: #fff !important;
-    /* background-image: url("../assets/wavy-purple-by-nouridio.svg") !important; */
+    color: #2c2f33 !important;
+    background-image: url("../assets/wavy-purple-by-nouridio.svg") !important;
     background-position: bottom !important;
     background-size: 300% !important;
     background-repeat: no-repeat !important;
@@ -69,7 +70,7 @@ body {
 }
 
 .subtitle {
-    color: rgb(255, 255, 255) !important;
+    color: #2c2f33 !important;
     font-size: 16px !important;
     font-family: 'Lato', sans-serif;
 }
@@ -79,23 +80,20 @@ body {
     text-align: center !important;
     background: #7289da !important;
     padding: 60px 50px !important;
-    /* background-image: url("../assets/wavy-dark-by-nouridio.svg") !important; */
+    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
     background-position: bottom !important;
     background-size: 200% !important;
     background-repeat: no-repeat !important;
-    border-radius:1em;
-    border:3px solid #ffffff;
-    max-width:100%
 }
 .features .title {
     font-size: 40px !important;
-    color: #ffffff !important;
+    color: #2c2f33 !important;
     line-height: 70px !important;
 }
 
 .features .subtitle {
     font-size: 20px !important;
-    color: #99aab5;
+    color: #2c2f33;
 }
 
 .features .card-body {
@@ -135,19 +133,19 @@ body {
 
 .statistics .title {
     font-size: 40px !important;
-    color: #ffffff !important;
+    color: #2c2f33 !important;
     line-height: 70px !important;
 }
 
 .statistics .subtitle {
     font-size: 20px !important;
-    color: #a2a8bd;
+    color: #2c2f33;
 }
 
 .card.statistic {
     background: transparent !important;
     box-shadow: none !important;
-    color: #f7f7f7 !important;
+    color: #2c2f33 !important;
 }
 
 
@@ -163,16 +161,16 @@ body {
 
 .start .card {
     background: transparent !important;
-    color: #f6f9ff !important;
+    color: #2c2f33 !important;
 }
 
 .features .card {
     background: #2c2f33;
     border-radius: 22px !important;
-    border: 4px solid #99aab5;
+    border: 4px solid #7289da;
 }
 .features .card-text {
-color: rgba(255, 255, 255, 0.46) !important
+    color: rgba(255, 255, 255, 0.46) !important
 }
 
 .features .card-body {
@@ -180,12 +178,12 @@ color: rgba(255, 255, 255, 0.46) !important
 }
 
 .navbar-toggler-icon {
-    color: #fff !important
+    color: #2c2f33 !important
 }
 .footer {
     text-align: center !important;
     padding: 5px 6px !important;
-    color: #ecf2ff;
+    color: #2c2f33;
     padding: 30px 30px !important
 }
 
@@ -206,19 +204,15 @@ color: rgba(255, 255, 255, 0.46) !important
 
 .footer .bot-footer {
     text-align: center !important;
-    color: #a2a8bd !important
+    color: #2c2f33 !important
 }
 
 .feature-image img{
     border-radius:1em;
-    border:3px solid #ffffff;
+    border:3px solid #2c2f33;
     max-width:100%
 }
 body.dark .feature-image img{
-    border-color: #ffffff
+    border-color:#2C2F33
 }
 
-.goback {
-    position: relative;
-    z-index: -5;
-}

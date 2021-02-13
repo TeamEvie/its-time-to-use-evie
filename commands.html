@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap4.css">
+    <link rel="stylesheet" href="css/tristan.css">
+    <link rel="stylesheet" href="css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <title>Jamble</title>
+    <meta content="Jamble - Just Another Music Bot" property="og:title">
+    <meta name="theme-color" content="#AD91FF" />
+    <meta content="Jamble is a feature-rich, easy to use Discord music bot built to deliver the best music experience on Discord! Upgrade your server today!" property="og:description">
+    <meta content="https://jamble.rocks" property="og:url">
+    <meta content="https://jamble.rocks/assets/jamble.jpg" property="og:image">
+    <meta content="#43B581" data-react-helmet="true" name="theme-color">
+    <!--icon support-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-transparent">
+<img src="assets/blackBotLogo.png" width="100" height="20">
+</nav>
+<div class="align-content-center">
+    <div class="text-center">
+        <div class="text-center">
+            <div class="card-body gs-card">
+                <br />
+                <a class="btn btn-primary btn-lg" href="/" role="button">Back</a>
+            </div><br />
+        </div>
+    </div>
+</div>
+            <!--             <li class="nav-item">
+                            <a class="nav-link" href="/features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/features">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/features">Subscribtion</a>
+                        </li>-->
+
+
+<div class="text-center">
+    <div class="title">Commands</div>
+    <div class="row justify-content-md-center" id="list">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="text-center">
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+            <table class="table table-striped">
+                <tbody>
+                <tr>
+                    <th scope="row">j!help</th>
+                    <td>shows all the commands.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!about</th>
+                    <td>sends information, credits, and shows invite link to bot.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!play</th>
+                    <td>indicate a title of a song to play, for example j!play lucid dreams.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!ping</th>
+                    <td>shows the current ping to the discord api.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!clear-queue</th>
+                    <td>pretty self explanatory.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!loop</th>
+                    <td>loops the current queue/song.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!np or j!nowplaying</th>
+                    <td>sends a sexy embed of the current song playing with a progress bar and other info.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!pause and j!resume</th>
+                    <td>pauses or resumes the current song.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!debug</th>
+                    <td>shows how many channels are connected to Jamble.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!queue</th>
+                    <td>show the queue.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!search</th>
+                    <td>searches youtube and numbers the results for you to reply with.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!shuffle</th>
+                    <td>shuffles through the queue instead of playing the songs from first to last.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!skip</th>
+                    <td>skips the current song and proceeds to the next one in the queue.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!stop</th>
+                    <td>stops the music.</td>
+                </tr>
+                <tr>
+                    <th scope="row">j!volume</th>
+                    <td>change the volume for the bot..</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--<div class="statistics">
+    <div class="cards">
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">3</h1>
+                <p style="font-weight: bold !important;font-size: 20px !important;">servers</p>
+            </div>
+        </div>
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">15</h1>
+                <p style="font-weight: bold !important;font-size: 20px !important;">users</p>
+            </div>
+        </div>
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">8</h1>
+                <p style="font-weight: bold !important;font-size: 20px !important;">channels</p>
+            </div>
+        </div>
+    </div>
+</div> (sorry neil i just dont like this, its flexes our low member count and server count)-->
+<div class="align-content-center">
+    <div class="text-center">
+        <div class="text-center">
+            <div class="card-body gs-card">
+                <div class="title">Invite Jamble Today!</div>
+                <div class="subtitle">and give your server a fun and reliable music bot!</div>
+                <br />
+                <a class="btn btn-primary btn-lg" href="https://dsc.gg/jamble" role="button">Invite Jamble!</a>
+            </div><br />
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/now-ui-kit.min.js"></script>
+</body>
+</html>
