@@ -1,1 +1,2 @@
 http://www.jamble.rocks/
+http://www.jamble.rocks/commands
