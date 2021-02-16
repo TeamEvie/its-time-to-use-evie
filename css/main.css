@@ -45,6 +45,7 @@ body {
     font-size: 16px !important;
     font-weight: 600 !important;
     text-transform: uppercase !important;
+    filter: drop-shadow(0 0 0.75rem #7289da);
 }
 
 .btn-primary {
@@ -110,6 +111,7 @@ body {
 .card {
     border-radius: 5px !important;
     box-shadow: none !important;
+    filter: drop-shadow(0 0 0.75rem #000000);
 }
 
 .card-title {
@@ -209,7 +211,8 @@ color: rgba(255, 255, 255, 0.46) !important
 
 .feature-image img{
     border-radius:1em;
-    border:3px solid #ffffff;
+    /* border:3px solid #ffffff; */
+    filter: drop-shadow(0 0 0.75rem #7289da);
     max-width:100%
 }
 body.dark .feature-image img{
