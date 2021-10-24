@@ -5,13 +5,17 @@
 
 body {
   font-family: "Poppins", sans-serif !important;
-  background-color: #7289da;
+  background-color: #2c2f33;
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   border-top: 6px #7289da solid !important;
   font-size: 16px;
+}
+
+.banner {
+  background-color: #7289da;
 }
 
 .page_end {

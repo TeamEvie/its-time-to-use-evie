@@ -62,17 +62,16 @@ function Cache() {
               y={5}
               fill="rgba(255,255,255,0.3)"
             />
-            <use xlinkHref="#gentle-wave" x={48} y={7} fill="#2c2f33" />
+            <use xlinkHref="#gentle-wave" x={48} y={7} fill="#7289da" />
           </g>
         </svg>
       </div>
-      <div className="dark_features">
+      <div className="features">
         <div className="text-5xl leading-none font-extrabold text-gray-900 tracking-tight mb-4 text-white">
           So how do I get on said cache?
         </div>
         <div class="min-h-screen py-6 flex flex-col justify-center sm:py-12">
           <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-            <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
             <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
               <div class="max-w-md mx-auto"></div>
               <div class="prose">
@@ -94,7 +93,7 @@ function Cache() {
                   faster)
                 </p>
                 <br></br>
-                <p>
+                <p class="text-black">
                   The quickest way to get into the cache is to just run{" "}
                   <span class="text-gray-900">
                     <span
