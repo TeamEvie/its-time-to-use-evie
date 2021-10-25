@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "set PORT=8080 && craco start",
+    "docker": "PORT=8080 craco start",
     "build": "craco build",
     "test": "craco test"
   },
