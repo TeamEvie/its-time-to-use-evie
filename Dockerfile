@@ -1,4 +1,5 @@
 FROM node:16.11.1
+EXPOSE 8080
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -19,4 +20,4 @@ COPY . .
 
 RUN apt-get update && apt-get install -y ffmpeg
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "docker" ]
