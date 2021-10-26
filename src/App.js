@@ -68,7 +68,7 @@ function App() {
           <div className="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="relative flex justify-center items-center">
               <div className="text-sm font-medium text-white">
-                Jamble is now Evie <a href="/jambletoevie">Learn More</a>
+                Jamble is now Evie!
               </div>
               <div className="ml-6 sm:ml-0"></div>
             </div>

@@ -120,9 +120,9 @@ function Home() {
             What is Evie all about?
           </div>
           <div className="text-2xl tracking-tight mb-10 text-center">
-            Here at Jamble Studios we strive to provide you with the best
-            Discord Bots, weather it's being a reliable music bot or adding
-            useful and fun commands to your server.
+            Note: Evie used to be called Jamble (just another music bot) 
+            But we rebranded cause music bots are getting shut down.
+            Anyways our website is a bit messy. we will fix soon
           </div>
           <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
             <div className="w-full flex md:flex-col bg-gradient-to-br from-purple-500 to-indigo-500">
