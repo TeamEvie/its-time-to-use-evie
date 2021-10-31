@@ -8,6 +8,7 @@ import { darkWave } from "./darkWave";
 import ReactRoundedImage from "react-rounded-image";
 import Leader from "./assets/leaderboard.png";
 import SS from "./assets/serverstats.png";
+import ReactEmbedGist from "react-embed-gist";
 
 function Home() {
   return (
@@ -120,47 +121,7 @@ function Home() {
             What is Evie all about?
           </div>
           <div className="text-2xl tracking-tight mb-10 text-center">
-            Note: Evie used to be called Jamble (just another music bot) 
-            But we rebranded cause music bots are getting shut down.
-            Anyways our website is a bit messy. we will fix soon
-          </div>
-          <div className="w-full relative text-white overflow-hidden rounded-3xl flex shadow-lg">
-            <div className="w-full flex md:flex-col bg-gradient-to-br from-purple-500 to-indigo-500">
-              <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                <h5 className="text-xl font-semibold mb-2 text-shadow">
-                  Lag Free Audio
-                </h5>
-                <p className="font-medium text-violet-100 text-shadow mb-4 text-left">
-                  Jamble's music player allows you to both queue and play music
-                  without waiting for them to download. Jamble currently
-                  supports Spotify, YouTube and SoundCloud.
-                </p>
-              </div>
-            </div>
-            <div className="w-full flex md:flex-col bg-gradient-to-br from-purple-500 to-indigo-500">
-              <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
-                <h5 className="text-xl font-semibold mb-2 text-shadow">
-                  Handy utilities
-                </h5>
-                <p className="font-medium text-violet-100 text-shadow mb-4 text-left">
-                  Jamble has a range of useful utilities for moderation, such as
-                  clearing channels on command, and more coming soon (were
-                  mainly focusing on music atm).
-                </p>
-              </div>
-            </div>
-            <div className="w-full flex md:flex-col bg-gradient-to-br from-purple-500 to-indigo-500 text-center">
-              <div className="sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8 text-center">
-                <h5 className="text-xl font-semibold mb-2 text-shadow text-center">
-                  Uptime!
-                </h5>
-                <p className="font-medium text-violet-100 text-shadow mb-4 text-left">
-                  Unlike many other competitors, we never go down and if we do
-                  it's usually just a 10 second update to make Jamble even more
-                  easier for you server owners and more fun and easy for all.{" "}
-                </p>
-              </div>
-            </div>
+            <ReactEmbedGist gist="twisttaan/5052ea469cfbb86fe4643bf69b8f4e45" />
           </div>
         </div>
       </div>
