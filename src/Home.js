@@ -16,7 +16,7 @@ function Home() {
       <div class="grid justify-items-stretch ...">
         <div class="justify-self-center ...">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-14 sm:mb-10 text-white">
-            It's time to use Evie™ in your Discord server.
+            It's time to use Evie in your Discord server.
           </h1>
           <div class="float-right">
             <ReactRoundedImage
